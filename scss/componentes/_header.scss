@@ -1,0 +1,83 @@
+header {
+    text-align: center;
+    position: sticky;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+
+    .container-hero {
+        background-color: var(--background-color);
+
+        .container {
+            max-width: 120rem;
+            margin: 0 auto;
+
+            .customer-support {
+                display: flex;
+                align-items: center;
+                gap: 2rem;
+
+                i {
+                    font-size: 3.3rem;
+                }
+
+                .content-customer-support {
+                    display: flex;
+                    flex-direction: column;
+                }
+            }
+            .container-logo {
+                display: flex;
+                align-items: center;
+                gap: 0.5rem;
+
+                i {
+                    font-size: 3rem;
+                }
+
+                .etiquita-h1{
+                    .etiqueta-a {
+                        text-decoration: none;
+                        color: #000;
+                        font-size: 3rem;
+                        text-transform: uppercase;
+                        letter-spacing: -1px;
+                    }
+                }
+            }
+            
+            .container-user{
+                .fa-user{
+                    font-size: 3rem;
+                    color: var(--primary-color);
+                    padding-right: 2.5rem;
+                    border-right: 1px solid #e2e2e2;
+                }
+                .fa-basket-shopping{
+                    font-size: 3rem;
+                    color: var(--primary-color);
+                    padding-left: 1rem;
+                }
+                .content-shopping-cart {
+                    display: flex;
+                    flex-direction: column;
+                }
+            }
+        }
+        .hero {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 2rem 0;
+        }
+    }
+    
+    .nav-item{
+        a{
+            color: black;
+            font-size: 15px;
+            padding-top: 10px;
+            font-family: 'Poppins', sans-serif;
+        }
+    }
+}
